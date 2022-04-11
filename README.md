@@ -1,2 +1,6 @@
 # dylan-cookbook
-A place to store my recipes and cooking experiences
+An Odin project and place to store my recipes
+
+With this project I demonstrated basic competency in HTML by:
+
+-

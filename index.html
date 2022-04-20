@@ -21,6 +21,7 @@
     h1 {
         color: darkgreen;
         background-color: rgba(65, 105, 225, 0.596);
+        background-position: center;
     }
 
     h2 {
@@ -38,17 +39,30 @@
     li {
         color: black;
     }
+
+    img {
+        outline:3px solid black;
+        outline-offset: -10px;
+        border: 7.5px solid rgba(65, 105, 225, 0.596);
+        box-shadow: 0 0 0 3px black;
+        border-radius: 30px;
+    }
+
+    
+    div {
+      text-align: center;
+    }
         </style> 
 </head>
 <body>
     <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dylan's Cookbook</h1>
     &nbsp;
-    <p>
+    <div>
         <img src="img/cookbook.jpg" alt="A blank cookbook"
-        width="600"
+        width="auto"
         height="450"
         >
-    </p>    
+    </div>
     &nbsp;
     <ul style="list-style: none;">
         <li><a href="./recipes/truffalosauce.html">Truffalo Wing Sauce</a></li>

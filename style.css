@@ -8,7 +8,10 @@ img {
     border: 7.5px solid rgba(65, 105, 225, 0.75);
     box-shadow: 0 0 0 3px black;
     border-radius: 30px;
+    object-fit: scale-down;
+    max-width: 90%;
 }
+
 
 div {
 text-align: center;

@@ -1,17 +1,17 @@
 body {
-    background-color: powderblue;
+    background-color: rgba(65, 105, 225, 0.3);
 }
-
+   
 img {
     outline:3px solid black;
     outline-offset: -10px;
-    border: 7.5px solid rgba(65, 105, 225, 0.596);
+    border: 7.5px solid rgba(65, 105, 225, 0.75);
     box-shadow: 0 0 0 3px black;
     border-radius: 30px;
 }
 
 div {
-    text-align: center;
+text-align: center;
 }
 
 h1,
@@ -24,12 +24,18 @@ li {
 
 h1 {
     color: darkgreen;
-    background-color: rgba(65, 105, 225, 0.596);
-    background-position: center;
+    background-image: linear-gradient(rgba(65, 105, 225, 0.9),rgba(65, 105, 225, 0.0));
 }
 
 h2 {
     color: black;
+}
+
+h3 {
+    color:transparent;
+    background-image: linear-gradient(rgba(65, 105, 225, 0.9),rgba(65, 105, 225, 0.0));
+    transform: rotate(180deg); 
+    margin-bottom:0; 
 }
 
 h4 {

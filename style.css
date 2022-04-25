@@ -1,3 +1,7 @@
+* {
+    font-family: Optima, sans-serif;
+}
+
 body {
     background-color: rgba(65, 105, 225, 0.09);
     margin: 0;
@@ -28,6 +32,7 @@ ul {
     margin-left: 5%;
     margin-right: 5%;
     line-height: 2em;
+    font-weight: lighter;
 }
 
 h2,
@@ -36,6 +41,7 @@ h2,
     text-align: center;
     margin-top: 0;
     margin-bottom:30px;
+    font-weight: bold;
 }
  .servings,
  ul {

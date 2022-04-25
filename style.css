@@ -52,7 +52,11 @@ h4 {
     color: darkolivegreen;
     text-align: center;
     font-style: italic;
-    margin-top: 1;
+    margin-top: ;
     margin-bottom:0;
-    
 }
+
+ul,
+ol {
+    margin-left: -20px;
+ }

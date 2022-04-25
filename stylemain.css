@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(65, 105, 225, 0.05);
+    background-color: rgba(65, 105, 225, 0.09);
 }
   
 img {
@@ -15,7 +15,7 @@ img {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-image: linear-gradient(rgba(65, 105, 225, 0.9),rgba(65, 105, 225, 0.0));
+    background-image: radial-gradient(rgba(65, 105, 225, 0.9),rgba(65, 105, 225, 0.09));
 }
 
 h1 {
@@ -27,6 +27,10 @@ h1 {
     background-image: linear-gradient(rgba(65, 105, 225, 0.9),rgba(65, 105, 225, 0.0));
     text-align: center;
 } 
+
+h2 {
+    color: darkgreen;
+}
 
 h2,
 h4,

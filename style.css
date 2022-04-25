@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(65, 105, 225, 0.05);
+    background-color: rgba(65, 105, 225, 0.09);
     margin: 0;
 }
    
@@ -16,7 +16,7 @@ img {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-image: radial-gradient(rgba(65, 105, 225, 0.7),rgba(65, 105, 225, 0.0));
+    background-image: radial-gradient(rgba(65, 105, 225, 0.9),rgba(65, 105, 225, 0.09));
 }
 
 p,
@@ -32,20 +32,24 @@ ul {
 
 h2,
 .servings {
-    color: black;
+    color: darkgreen;
     text-align: center;
     margin-top: 0;
     margin-bottom:30px;
-
 }
  .servings,
  ul {
     margin-top: -30px;
+    color: black;
  }
 
 h2 {
     background-image: radial-gradient(rgba(65, 105, 225, 0.7),rgba(65, 105, 225, 0.0));
     max-width:110%;
+}
+
+u {
+    text-decoration-color: black;
 }
 
 h1 {
